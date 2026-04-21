@@ -308,7 +308,7 @@ A starter list — see [`docs/papers.md`](docs/papers.md) for a fuller reading l
 - [vLLM Forum](https://discuss.vllm.ai/)
 - [EleutherAI Discord](https://discord.gg/eleutherai) — Research-focused. 
 - [AI Engineer conferences / community](https://www.ai.engineer/) — Annual conference.
-- [LangChain Community Forum] (https://docs.langchain.com/oss/javascript/langchain/get-help) — Async discussions and best practices.
+- [LangChain Community Forum](https://docs.langchain.com/oss/javascript/langchain/get-help) — Async discussions and best practices.
 
 ## Books
 
