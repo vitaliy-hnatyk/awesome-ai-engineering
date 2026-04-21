@@ -303,11 +303,12 @@ A starter list — see [`docs/papers.md`](docs/papers.md) for a fuller reading l
 
 ## Communities
 
-- [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) — Open-weight model community.
-- [Hugging Face Forums](https://discuss.huggingface.co/)
-- [LangChain Discord](https://discord.gg/langchain)
-- [EleutherAI Discord](https://discord.gg/eleutherai) — Research-focused.
-- [AI Engineer Summit](https://www.ai.engineer/) — Annual conference.
+- [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) — Open-weight model community. 
+- [Hugging Face Forums](https://discuss.huggingface.co/) 
+- [vLLM Forum](https://discuss.vllm.ai/)
+- [EleutherAI Discord](https://discord.gg/eleutherai) — Research-focused. 
+- [AI Engineer conferences / community](https://www.ai.engineer/) — Annual conference.
+- [LangChain Community Forum] (https://docs.langchain.com/oss/javascript/langchain/get-help) — Async discussions and best practices.
 
 ## Books
 
@@ -316,6 +317,7 @@ A starter list — see [`docs/papers.md`](docs/papers.md) for a fuller reading l
 - *Build a Large Language Model (From Scratch)* — Sebastian Raschka (Manning, 2024)
 - *Hands-On Large Language Models* — Jay Alammar & Maarten Grootendorst (O'Reilly, 2024)
 - *Prompt Engineering for LLMs* — John Berryman & Albert Ziegler (O'Reilly, 2024)
+- *Transformers in Action* - Nicole Koenigstein (Manning 2025)
 
 ## Contributing
 
