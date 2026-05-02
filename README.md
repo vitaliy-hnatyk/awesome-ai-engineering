@@ -14,7 +14,7 @@ AI Engineering sits at the intersection of software engineering, machine learnin
 - [Frameworks & Orchestration](#frameworks--orchestration)
 - [Prompt Engineering](#prompt-engineering)
 - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-- [Vector Databases](#vector-databases)
+- [Vector Databases / Vector Search Stores](#vector-databases--vector-search-stores)
 - [Agents & Tool Use](#agents--tool-use)
 - [Fine-Tuning & Post-Training](#fine-tuning--post-training)
 - [Evaluation & Observability](#evaluation--observability)
