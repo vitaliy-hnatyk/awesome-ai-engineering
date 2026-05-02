@@ -121,16 +121,45 @@ See [`docs/prompt-engineering.md`](docs/prompt-engineering.md) for techniques an
 
 See [`docs/rag.md`](docs/rag.md) for architecture patterns.
 
-## Vector Databases
+## Vector Databases / Vector Search Stores
 
-- [Pinecone](https://www.pinecone.io/) — Managed vector DB.
-- [Weaviate](https://weaviate.io/) — Open-source, hybrid search.
-- [Qdrant](https://qdrant.tech/) — Open-source, Rust-based.
-- [Chroma](https://www.trychroma.com/) — Developer-friendly, embedded.
-- [Milvus](https://milvus.io/) — Scalable open-source.
-- [LanceDB](https://lancedb.com/) — Serverless, embedded.
-- [pgvector](https://github.com/pgvector/pgvector) — PostgreSQL extension.
-- [Turbopuffer](https://turbopuffer.com/) — Object-storage-backed.
+### Core Vector Databases
+
+- [Pinecone](https://www.pinecone.io/) — Managed/serverless vector database.
+- [Weaviate](https://weaviate.io/) — Open-source vector database with hybrid search.
+- [Qdrant](https://qdrant.tech/) — Open-source Rust-based vector search engine / database.
+- [Chroma](https://www.trychroma.com/) — Developer-friendly vector/search database for AI apps and RAG prototyping.
+- [Milvus](https://milvus.io/) — Scalable open-source vector database for large-scale workloads.
+- [LanceDB](https://lancedb.com/) — Embedded/serverless vector database for multimodal AI data.
+- [pgvector](https://github.com/pgvector/pgvector) — PostgreSQL extension for vector similarity search.
+- [turbopuffer](https://turbopuffer.com/) — Serverless vector and full-text search built on object storage.
+
+### Search Engines with Vector Search
+
+- [Elasticsearch](https://www.elastic.co/docs/solutions/search/vector/knn) — Search engine with dense vector and kNN search.
+- [OpenSearch](https://docs.opensearch.org/latest/vector-search/) — Open-source search engine with k-NN vector search.
+- [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-overview) — Managed search service with text, vector, and hybrid search.
+- [Vespa](https://docs.vespa.ai/en/querying/nearest-neighbor-search.html) — Search and ranking engine for vector, lexical, and hybrid retrieval.
+
+### Databases with Vector Search Support
+
+- [Redis Vector Search](https://redis.io/docs/latest/develop/ai/search-and-query/vectors/) — In-memory database/search engine with vector search.
+- [MongoDB Atlas Vector Search](https://www.mongodb.com/docs/vector-search/) — Vector search inside MongoDB Atlas.
+- [Astra DB Vector Search](https://docs.datastax.com/en/astra-db-serverless/databases/vector-search.html) — Cassandra-based database with vector search.
+- [Apache Cassandra Vector Search](https://cassandra.apache.org/doc/latest/cassandra/vector-search/concepts.html) — Vector search support in Apache Cassandra.
+- [Neo4j Vector Index](https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/) — Vector search inside a graph database.
+- [ClickHouse Vector Similarity Indexes](https://clickhouse.com/docs/engines/table-engines/mergetree-family/annindexes) — Analytical database with vector similarity indexing.
+- [SingleStore Vector Functions](https://docs.singlestore.com/cloud/reference/sql-reference/vector-functions/) — SQL database with vector functions and indexing.
+- [Supabase Vector](https://supabase.com/docs/guides/ai) — Managed Postgres + pgvector platform for AI apps.
+- [Snowflake Cortex Search](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview) — Enterprise search service with vector and text search support.
+
+### Vector Search Libraries
+
+- [FAISS](https://github.com/facebookresearch/faiss) — Library for efficient similarity search and clustering of dense vectors.
+- [Annoy](https://github.com/spotify/annoy) — Approximate nearest neighbors library from Spotify.
+- [ScaNN](https://github.com/google-research/google-research/tree/master/scann) — Google library for efficient vector similarity search.
+
+
 
 ## Agents & Tool Use
 
